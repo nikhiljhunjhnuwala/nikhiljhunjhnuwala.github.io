@@ -1,8 +1,10 @@
 .wrapper{
-    padding:10px;
+padding:0px 50px;
+}
+
+.section{
     background:lightgrey;
-    width:900px;
-    margin: 0 auto;
+    padding: 20px 10px;
 }
 
 .nav{
