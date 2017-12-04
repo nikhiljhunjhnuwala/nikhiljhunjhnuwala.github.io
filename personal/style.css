@@ -1,0 +1,25 @@
+.row-1{
+    border: 1px solid red;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    
+}
+
+.image-box, .text-box{
+    border: 2px solid blue;
+    width: 300px;
+    height: 250px;
+    flex-grow: 1;
+}
+
+.text-box{
+
+}
+
+.box{
+
+}

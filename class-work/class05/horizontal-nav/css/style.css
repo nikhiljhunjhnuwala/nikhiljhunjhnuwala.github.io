@@ -2,3 +2,29 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
 }
+
+nav{
+	background-color: black;
+}
+
+nav a{
+	color:#cccccc;
+	display: inline-block;
+	padding: 30px 20px;
+	text-decoration: none;
+	/* border: 1px solid red; */
+}
+
+nav a:hover {
+	color: #ffffff;
+	background-color: #ff7401;
+}
+
+.flexbox{
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;      /* TWEENER - IE 10 */
+	display: -webkit-flex;     /* NEW - Chrome */
+	display: flex; 
+}
+ 

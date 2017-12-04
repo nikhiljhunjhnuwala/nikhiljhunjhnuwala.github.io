@@ -1,0 +1,33 @@
+header, main, footer, section, aside{
+    border: 1px solid red;
+}
+
+header, footer{
+    height:100px;
+}
+
+section, aside{
+    height:300px;
+}
+
+main{
+    display:flex;
+}
+
+section{
+    background:green;
+    width:20%;
+}
+
+aside{
+    width: 60%;
+    background:blue;
+}
+
+.col-3{
+    background:yellow;
+    width:20%;
+}
+
+
+

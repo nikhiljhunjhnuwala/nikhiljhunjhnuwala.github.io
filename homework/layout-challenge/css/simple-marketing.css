@@ -1,0 +1,32 @@
+header, footer, .row-1, .row-2{
+    border: 1px solid red;
+}
+
+header, footer{
+    height:100px;
+}
+
+.row-1{
+    height:300px;
+}
+
+.row-2 {
+    height:200px;  
+}
+
+.row-1, .row-2{
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+.box{
+    border: 2px solid blue;
+    flex-grow: 1;
+}
+
+
+
+
+
+
