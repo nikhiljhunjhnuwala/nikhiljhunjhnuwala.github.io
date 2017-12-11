@@ -1,0 +1,27 @@
+Final project proposal
+
+Note: If I have extra time, I'll build additional modules.
+ 
+Goal: Help users compare plans and decide which one is best for them. 
+
+Background: 
+-Our current design stacks 3 plan boxes on top of each other and require the user to scroll to see all their options. 
+-It's easier to compare options if you can see both at the same time. 
+-We have not changed the design for over 1 year.
+
+
+Hypothesis: Displaying all plan options on a single screen will help the user compare plans.
+
+Metric: View plans to sign up conversion rate
+
+Functional Requuirements:
+Create pricing module that presents all options to users on single mobile screen. 
+-present 3 plans
+-js interactivity
+-tktktk
+
+Simple Mockups:
+
+Results:
+
+Learnings: 
