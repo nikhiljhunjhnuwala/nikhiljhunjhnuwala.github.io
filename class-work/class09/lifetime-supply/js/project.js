@@ -9,7 +9,7 @@ $(document).ready(function(){
         var favoriteDrink = $('#item').val();
         var amount = $('#num-per-day').val();
         var life = (parseInt(maxAge) - parseInt(age)) * 365 * parseInt(amount);
-        $('#solution').html(life);
+        $('#solution').html(`${life} ${favoriteDrink}`);
     }
 
    
