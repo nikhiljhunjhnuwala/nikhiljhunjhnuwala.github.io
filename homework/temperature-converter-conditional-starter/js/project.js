@@ -17,6 +17,8 @@ $('#f-button').click(function() {
 		$('#answer').html(farInput + '&deg; fahrenheit is ' + celOutput + '&deg; celcius.');
 	} else if (!isNaN(celInput)){
 		$('#answer').html(celInput + '&deg; celcius is ' + farOutput + '&deg; fahrenheit.');
+	} else {
+		$('#answer').html('Please input value!')
 	}
 
 	if (broken){
@@ -27,7 +29,7 @@ $('#f-button').click(function() {
 		$('body').addClass('hot');
 		$('.animal').attr('src','images/camel.jpg')		
 		$('.earth').removeClass('is-Hidden');
-	} else {
+	} else if (farInput <= 80 || farOutput <= 80){
 		$('body').addClass('cold');	
 		$('.animal').attr('src','images/penguin.jpg');
 		$('.earth').removeClass('is-Hidden');
