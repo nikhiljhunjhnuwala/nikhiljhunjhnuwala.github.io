@@ -1,0 +1,51 @@
+body {
+  padding: 20px;
+  text-align: center;
+}
+
+input {
+  width: 110px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  box-sizing: border-box;
+  /* width: 60px; */
+  margin: 5px 55px 5px 5px;
+}
+
+.hot{
+  background: #fc4a1a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+.cold{
+  background: #1FA2FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+.nothing{
+  background: #FEAC5E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+.earth{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.animal{
+  width: 250px;
+  max-width: 100%; 
+  max-height: 250px; 
+}
+
+.is-Hidden{
+  display:none;
+}
+
