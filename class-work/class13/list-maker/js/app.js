@@ -19,18 +19,22 @@ $(document).ready(function () {
 
 	// 2. Write the appendItem function here
 	$('#clickme').click(appendItem);
-	function appendItem (item){
+	function appendItem(item) {
 		var item = $('#item').val();
-		if (item == null || item == ""){
+		if (item == null || item == "") {
 			alert("enter an item")
 		} else {
-		$('#list').append('<li>' + item + '</li>');
-		$('#item').focus();
-		$('#item').val('');
+			$('#list').append('<li>' + item + '</li>');
+			$('#item').focus();
+			$('#item').val('');
 		}
 	}
-	
-	$('ul').on('click', 'li', function() {
-        $(this).remove();
-    });
+
+	// $('#list li').click(function(e){
+	// 	$(e.target).remove();
+	// });
+
+	$('ul').on('click', 'li', function () {
+		$(this).remove();
+	});
 })
