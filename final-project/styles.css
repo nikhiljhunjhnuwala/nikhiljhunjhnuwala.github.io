@@ -1,0 +1,110 @@
+
+.plans{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    color:#4d4d4d;
+}
+    .plans-headline{
+        padding: 20px 0;
+    }
+
+    #plan-weight-loss-amount{
+        font-weight: 100;
+        font-size: 64px;
+    }
+
+    .weight-unit{
+        font-size:24px;
+    }
+
+    .plans-price-divider{
+        height: 2px;
+        background-color: #969696;
+        width: 100%;
+        margin-bottom:10px;
+        }
+
+    .free-trial{
+        margin: 15px 0;
+        color: #f75462;
+    }
+
+    .monthly-price{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .onePayment{
+        font-size: 14px;
+        padding: 10px 0;
+        font-weight: normal;
+    }
+
+    .is-Hidden{
+        visibility: hidden;
+    }
+
+    .plan-signup-cta{
+        margin:20px 0;
+        padding: 16px 40px;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        border-radius: 2rem;
+        -webkit-box-pack: center;
+        justify-content: center;
+        color: #ffffff;
+        background-color: #f75462;
+    }
+
+.plan-month-selector{
+    display:flex;
+    flex-wrap: wrap;
+}
+    .month{
+        min-width:70px;
+        background-color: #f2f2f2;
+        border: solid 2px #ffffff;
+        text-align: center;
+        border-right: none;
+    }
+
+    .month-duration{
+        padding:20px 5px 5px 5px; 
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .month-duration-selected{
+        color:white;
+    }
+
+    .mo-12{
+
+    }
+
+    .discount-1{
+        visibility: hidden;
+    }
+
+    .discount{
+        padding: 0px 5px 20px 5px; 
+        font-size: 16px;
+        font-weight: bold;
+        color: #f75462;
+    }
+
+    .discount-selected{
+        color: #ffdee1;
+    }
+
+.plans-price{
+    text-align: center;  
+}
+
+.selected-plan{
+    background-color: #f75462;
+}
+
